@@ -1,0 +1,675 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="KlénaAgency - Agence créative spécialisée en photographie, gestion des réseaux sociaux et création de chartes graphiques. Transformez votre image de marque.">
+    <meta name="keywords" content="agence créative, photographie, réseaux sociaux, charte graphique, community management, branding">
+    <meta name="author" content="KlénaAgency">
+    
+    <!-- Open Graph -->
+    <meta property="og:title" content="KlénaAgency - Agence Créative">
+    <meta property="og:description" content="Là où votre communauté prend vie à travers des contenus authentiques et une gestion stratégique de vos réseaux sociaux.">
+    <meta property="og:image" content="assets/images/backgrounds/FONd.png">
+    <meta property="og:type" content="website">
+    
+    <title>KlénaAgency | Agence Créative - Photographie & Réseaux Sociaux</title>
+    
+    <!-- Favicon -->
+    <link rel="icon" type="image/svg+xml" href="assets/images/logo/6.svg">
+    
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Alice&display=swap" rel="stylesheet">
+    
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/variables.css">
+    <link rel="stylesheet" href="css/components.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/animations.css">
+    <link rel="stylesheet" href="css/responsive.css">
+</head>
+<body>
+    <!-- Header -->
+    <header class="header" id="header">
+        <div class="container">
+            <a href="#" class="logo">
+                <img src="assets/images/logo/kléna_agency_logo_inline_blanc.png" alt="KlénaAgency Logo">
+            </a>
+            <nav class="nav">
+                <ul class="nav-list" id="navList">
+                    <li><a href="#hero" class="nav-link active">Accueil</a></li>
+                    <li><a href="#about" class="nav-link">À propos</a></li>
+                    <li><a href="#services" class="nav-link">Services</a></li>
+                    <li><a href="#pricing" class="nav-link">Tarifs</a></li>
+                    <li><a href="#portfolio" class="nav-link">Portfolio</a></li>
+                    <li><a href="#contact" class="nav-link">Contact</a></li>
+                </ul>
+                <a href="#contact" class="btn btn-primary">Devis gratuit</a>
+                <button class="menu-toggle" id="menuToggle" aria-label="Menu">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+            </nav>
+        </div>
+        <div class="mobile-overlay" id="mobileOverlay"></div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero" id="hero">
+        <div class="hero-content">
+            <img src="assets/images/logo/kléna_agency_logo_couleurs_blanc.png" alt="KlénaAgency" class="hero-logo">
+            <h1 class="hero-title">Donnez vie à votre communauté</h1>
+            <p class="hero-subtitle">Là où votre communauté prend vie, c'est à travers des contenus authentiques et une gestion stratégique de vos réseaux sociaux.</p>
+            <div class="hero-buttons">
+                <a href="#services" class="btn btn-primary btn-animated">Découvrir nos services</a>
+                <a href="#contact" class="btn btn-secondary">Nous contacter</a>
+            </div>
+        </div>
+        <a href="#about" class="hero-scroll" aria-label="Scroll vers le bas">
+            <svg width="30" height="30" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M12 5v14M19 12l-7 7-7-7"/>
+            </svg>
+        </a>
+    </section>
+
+    <!-- About Section -->
+    <section class="about" id="about">
+        <div class="container">
+            <div class="about-grid">
+                <div class="about-texts fade-in-right">
+                    <span class="section-subtitle">Qui sommes-nous</span>
+                    <h2 class="section-title">Deux passionnés au service de votre image</h2>
+                    <p class="about-text">
+                        Nous sommes deux passionnés de création visuelle, animés par l'envie de transformer les idées en images fortes et cohérentes. De cette vision est née <strong>KlénaAgency</strong>, une agence créative spécialisée dans la photographie, la gestion des réseaux sociaux et la création de chartes graphiques.
+                    </p>
+                    <p class="about-text">
+                        Nous accompagnons entreprises, marques et indépendants dans le développement de leur image, en proposant des contenus visuels de qualité et une communication digitale efficace, pensée pour valoriser votre identité et renforcer votre présence en ligne.
+                    </p>
+                    <p class="about-text">
+                        Ce qui nous anime au quotidien, c'est de capturer des émotions, de transformer chaque instant en un souvenir inoubliable, et de rendre vos réseaux attrayants. Notre approche repose sur la <strong>créativité</strong>, la <strong>spontanéité</strong> et le <strong>sens du détail</strong>.
+                    </p>
+                    <div class="about-logo">
+                        <img src="assets/images/logo/kléna_agency_logo_inline_couleurs.png" alt="KlénaAgency" loading="lazy">
+                    </div>
+                </div>
+                <div class="about-side fade-in">
+                    <div class="about-images about-images--side fade-in">
+                        <div class="stacked-images">
+                            <div class="stacked-image stacked-image--1">
+                                <img src="assets/images/photos/IMG_6077.jpeg" alt="KlénaAgency - Photographie professionnelle" loading="lazy">
+                            </div>
+                            <div class="stacked-image stacked-image--2">
+                                <img src="assets/images/photos/IMG_5380.jpeg" alt="KlénaAgency - Événements" loading="lazy">
+                            </div>
+                            <div class="stacked-image stacked-image--3">
+                                <img src="assets/images/photos/Capture d_écran 2025-12-06 215147.png" alt="KlénaAgency - Créativité" loading="lazy">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="about-values-slider" id="aboutValues">
+                        <div class="about-values">
+                            <div class="value-item fade-in delay-1" data-description="Nous imaginons des visuels uniques et cohérents avec votre identité, pour raconter votre histoire et marquer les esprits.">
+                            <div class="value-icon value-icon--creativite" aria-hidden="true">
+                                <img src="assets/icons/Créativité.svg" alt="" class="value-icon-img" aria-hidden="true">
+                            </div>
+                            <div class="value-text">Créativité</div>
+                            </div>
+                            <div class="value-item fade-in delay-2" data-description="Sur le terrain comme en création de contenu, on capture l’instant et l’émotion pour un rendu naturel, vivant et authentique.">
+                            <div class="value-icon value-icon--spontaneite" aria-hidden="true">
+                                <img src="assets/icons/Spontanéité.svg" alt="" class="value-icon-img" aria-hidden="true">
+                            </div>
+                            <div class="value-text">Spontanéité</div>
+                            </div>
+                            <div class="value-item fade-in delay-3" data-description="Chaque détail compte : cadrage, lumière, retouches et harmonie globale pour un résultat premium et soigné.">
+                            <div class="value-icon value-icon--detail" aria-hidden="true">
+                                <img src="assets/icons/Sens_du_détail.svg" alt="" class="value-icon-img" aria-hidden="true">
+                            </div>
+                            <div class="value-text">Sens du détail</div>
+                            </div>
+                        </div>
+                        <blockquote class="about-values-quote">
+                            <svg class="quote-icon" width="32" height="32" viewBox="0 0 24 24" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M4.58341 17.3211C3.55316 16.2274 3 15 3 13.0104C3 9.51092 5.45651 6.37372 9.03059 4.82324L9.92328 6.20085C6.58804 8.00545 5.93618 10.3461 5.67564 11.8221C6.21263 11.5444 6.91558 11.4467 7.60471 11.5106C9.40908 11.6778 10.8312 13.1591 10.8312 15C10.8312 16.933 9.26416 18.5 7.33116 18.5C6.2581 18.5 5.23196 18.0096 4.58341 17.3211ZM14.5834 17.3211C13.5532 16.2274 13 15 13 13.0104C13 9.51092 15.4565 6.37372 19.0306 4.82324L19.9233 6.20085C16.588 8.00545 15.9362 10.3461 15.6756 11.8221C16.2126 11.5444 16.9156 11.4467 17.6047 11.5106C19.4091 11.6778 20.8312 13.1591 20.8312 15C20.8312 16.933 19.2642 18.5 17.3312 18.5C16.2581 18.5 15.232 18.0096 14.5834 17.3211Z"/>
+                            </svg>
+                            <p class="about-values-description"><span id="aboutValuesDescription"></span></p>
+                        </blockquote>
+                    </div>
+                </div>
+            </div>
+
+            <div class="about-creators">
+                <p class="about-creators-title">Des photographes passionnés au service de votre vision</p>
+                <div class="creators-grid">
+                    <article class="creator-card fade-in delay-2">
+                        <div class="creator-photo">
+                            <img src="assets/images/photos/Kénaël_Hunin.png" alt="Kénaël Hunin" loading="lazy">
+                        </div>
+                        <div class="creator-body">
+                            <h3 class="creator-name">Kénaël Hunin</h3>
+                            <p class="creator-role">Fondateur, photographe professionnel</p>
+                            <p class="creator-role">Community manager</p>
+                        </div>
+                    </article>
+                    <article class="creator-card fade-in delay-3">
+                        <div class="creator-photo">
+                            <img src="assets/images/photos/Clémence_Leclerc.png" alt="Clémence Leclerc" loading="lazy">
+                        </div>
+                        <div class="creator-body">
+                            <h3 class="creator-name">Clémence Leclerc</h3>
+                            <p class="creator-role">Photographe</p>
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section class="services" id="services">
+        <div class="container">
+            <div class="services-header">
+                <span class="section-subtitle fade-in">Nos expertises</span>
+                <h2 class="section-title fade-in">Ce que nous faisons pour vous</h2>
+                <p class="section-description fade-in">
+                    Des solutions créatives adaptées à vos besoins pour développer votre présence en ligne et valoriser votre image de marque.
+                </p>
+            </div>
+            <div class="services-grid">
+                <!-- Service 1 -->
+                <div class="service-card fade-in delay-1">
+                    <div class="service-icon">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                            <path d="M18 8A6 6 0 0 0 6 8c0 7-3 9-3 9h18s-3-2-3-9"/>
+                            <path d="M13.73 21a2 2 0 0 1-3.46 0"/>
+                            <path d="M2 8c0-2.2.7-4.3 2-6"/>
+                            <path d="M22 8a10 10 0 0 0-2-6"/>
+                        </svg>
+                    </div>
+                    <h3 class="service-title">Gestion des Réseaux Sociaux</h3>
+                    <p class="service-description">
+                        Création de contenus engageants, gestion quotidienne de vos réseaux, stratégie éditoriale personnalisée et analyse des performances pour maximiser votre visibilité.
+                    </p>
+                    <a href="#pricing" class="btn btn-outline" data-pricing-tab="social">Voir les tarifs</a>
+                </div>
+                <!-- Service 2 -->
+                <div class="service-card fade-in delay-2">
+                    <div class="service-icon">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                            <path d="M23 19a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h4l2-3h6l2 3h4a2 2 0 0 1 2 2z"/>
+                            <circle cx="12" cy="13" r="4"/>
+                        </svg>
+                    </div>
+                    <h3 class="service-title">Photographie & Vidéo</h3>
+                    <p class="service-description">
+                        Capturer l'essence de votre marque à travers des photos et vidéos professionnelles. Événements, portraits, produits - nous immortalisons vos moments clés.
+                    </p>
+                    <a href="#pricing" class="btn btn-outline" data-pricing-tab="photo">Voir les tarifs</a>
+                </div>
+                <!-- Service 3 -->
+                <div class="service-card fade-in delay-3">
+                    <div class="service-icon">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                            <polygon points="12 2 2 7 12 12 22 7 12 2"/>
+                            <polyline points="2 17 12 22 22 17"/>
+                            <polyline points="2 12 12 17 22 12"/>
+                        </svg>
+                    </div>
+                    <h3 class="service-title">Charte Graphique</h3>
+                    <p class="service-description">
+                        Définir l'identité visuelle de votre marque avec une charte graphique complète : logo, couleurs, typographie et guidelines pour une communication cohérente.
+                    </p>
+                    <a href="#pricing" class="btn btn-outline" data-pricing-tab="charte">Voir les tarifs</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Pricing Section -->
+    <section class="pricing" id="pricing">
+        <div class="container">
+            <div class="pricing-header">
+                <span class="section-subtitle fade-in">Nos tarifs</span>
+                <h2 class="section-title fade-in">Des formules adaptées à vos besoins</h2>
+                <p class="section-description fade-in">
+                    Confort & Accessibilité : nous n'utilisons que des équipements de qualité pour garantir les meilleurs rendus possibles.
+                </p>
+            </div>
+
+            <!-- Tabs -->
+            <div class="tabs">
+                <button class="tab-btn active" data-tab="social">Réseaux Sociaux</button>
+                <button class="tab-btn" data-tab="photo">Photo & Vidéo</button>
+                <button class="tab-btn" data-tab="charte">Charte Graphique</button>
+            </div>
+
+            <!-- Tab Content: Social Media -->
+            <div class="tab-content active" id="social">
+                <div class="pricing-grid">
+                    <!-- Formule Medium -->
+                    <div class="pricing-card fade-in delay-1">
+                        <h3 class="pricing-name">Formule Medium</h3>
+                        <div class="pricing-price">684€<span>/mois</span></div>
+                        <p style="color: var(--gray-medium); margin-bottom: var(--spacing-lg);">Accompagnement mensuel complet</p>
+                        <ul class="pricing-features">
+                            <li>1 rendez-vous par mois</li>
+                            <li>Gestion d'1 réseau social (Instagram, Facebook ou TikTok)</li>
+                            <li>12 contenus/mois (posts + reels)</li>
+                            <li>Création de reel avec téléphone</li>
+                            <li>Écriture du script</li>
+                            <li>Tournage vidéo 30 sec en présentiel</li>
+                            <li>Montage complet</li>
+                            <li>Photo avec boîtier</li>
+                            <li>Gestion des commentaires</li>
+                        </ul>
+                        <a href="#contact" class="btn btn-outline" style="width: 100%;">Demander un devis</a>
+                    </div>
+                    <!-- Formule Intermédiaire -->
+                    <div class="pricing-card featured fade-in delay-2">
+                        <h3 class="pricing-name">Formule Intermédiaire</h3>
+                        <div class="pricing-price">1 162€<span>/mois</span></div>
+                        <p style="color: var(--gray-medium); margin-bottom: var(--spacing-lg);">Gestion plus complète</p>
+                        <ul class="pricing-features">
+                            <li>1 rendez-vous par mois</li>
+                            <li>Gestion de 2 réseaux sociaux</li>
+                            <li>16 contenus/mois (posts + reels)</li>
+                            <li>Création de reel avec téléphone</li>
+                            <li>Écriture du script</li>
+                            <li>Tournage vidéo 45 sec en présentiel</li>
+                            <li>Montage complet</li>
+                            <li>Photo avec boîtier</li>
+                            <li>Gestion des interactions</li>
+                        </ul>
+                        <a href="#contact" class="btn btn-primary" style="width: 100%;">Demander un devis</a>
+                    </div>
+                    <!-- Formule Complète -->
+                    <div class="pricing-card fade-in delay-3">
+                        <h3 class="pricing-name">Formule Complète</h3>
+                        <div class="pricing-price">1 845€<span>/mois</span></div>
+                        <p style="color: var(--gray-medium); margin-bottom: var(--spacing-lg);">Présence renforcée</p>
+                        <ul class="pricing-features">
+                            <li>1 rendez-vous par mois</li>
+                            <li>Gestion de 2 à 3 réseaux sociaux</li>
+                            <li>20 contenus/mois (posts + reels)</li>
+                            <li>Création de reel avec téléphone</li>
+                            <li>Rédaction du script</li>
+                            <li>Tournage vidéo 60 sec en présentiel</li>
+                            <li>Montage professionnel</li>
+                            <li>Photo avec boîtier</li>
+                            <li>Gestion des interactions</li>
+                        </ul>
+                        <a href="#contact" class="btn btn-outline" style="width: 100%;">Demander un devis</a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Tab Content: Photo & Video -->
+            <div class="tab-content" id="photo">
+                <div class="fade-in">
+                    <table class="tarif-table">
+                        <thead>
+                            <tr>
+                                <th>Prestation</th>
+                                <th>Description</th>
+                                <th>Tarif</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td><strong>Prestation photo/vidéo</strong></td>
+                                <td>Tarif horaire de base</td>
+                                <td>35 €/h</td>
+                            </tr>
+                            <tr>
+                                <td><strong>Matériel Vidéo</strong></td>
+                                <td>Utilisation du téléphone</td>
+                                <td>30 €</td>
+                            </tr>
+                            <tr>
+                                <td><strong>Matériel Photo</strong></td>
+                                <td>Téléphone</td>
+                                <td>25 €</td>
+                            </tr>
+                            <tr>
+                                <td><strong>Matériel Photo</strong></td>
+                                <td>Boîtier professionnel</td>
+                                <td>45 €</td>
+                            </tr>
+                            <tr>
+                                <td><strong>Éclairage</strong></td>
+                                <td>Flash + barre LED</td>
+                                <td>10 €</td>
+                            </tr>
+                            <tr>
+                                <td><strong>Accessoires</strong></td>
+                                <td>Trépied</td>
+                                <td>5 €</td>
+                            </tr>
+                            <tr>
+                                <td><strong>Éclairage Pro</strong></td>
+                                <td>Softbox (1 jour + 25€/jour suppl.)</td>
+                                <td>75 €</td>
+                            </tr>
+                            <tr>
+                                <td><strong>Stockage</strong></td>
+                                <td>Stockage numérique</td>
+                                <td>10 €/semaine</td>
+                            </tr>
+                            <tr>
+                                <td><strong>Archivage</strong></td>
+                                <td>Longue durée sur carte SD</td>
+                                <td>40 €</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+
+            <!-- Tab Content: Charte Graphique -->
+            <div class="tab-content" id="charte">
+                <div class="pricing-grid">
+                    <!-- Formule 1 -->
+                    <div class="pricing-card fade-in delay-1">
+                        <h3 class="pricing-name">Formule 1</h3>
+                        <div class="pricing-price">70€<span> - 120€</span></div>
+                        <p style="color: var(--gray-medium); margin-bottom: var(--spacing-lg);">Document complet fourni</p>
+                        <ul class="pricing-features">
+                            <li>Le client fournit toutes les données</li>
+                            <li>Mise en forme du document</li>
+                            <li>Format A4 PDF : 70€</li>
+                            <li>Format PowerPoint (PDF) : 70€</li>
+                            <li>Lot des 2 formats : 120€</li>
+                        </ul>
+                        <a href="#contact" class="btn btn-outline" style="width: 100%;">Demander un devis</a>
+                    </div>
+                    <!-- Formule 2 -->
+                    <div class="pricing-card fade-in delay-2">
+                        <h3 class="pricing-name">Formule 2</h3>
+                        <div class="pricing-price">130€<span> - 250€</span></div>
+                        <p style="color: var(--gray-medium); margin-bottom: var(--spacing-lg);">Document à moitié rempli</p>
+                        <ul class="pricing-features">
+                            <li>Le client fournit une partie du contenu</li>
+                            <li>Recherche complémentaire : 60€</li>
+                            <li>Création du contenu manquant</li>
+                            <li>Format A4 PDF : 70€</li>
+                            <li>Format PowerPoint (PDF) : 70€</li>
+                            <li>Lot des 2 formats : 120€</li>
+                        </ul>
+                        <a href="#contact" class="btn btn-outline" style="width: 100%;">Demander un devis</a>
+                    </div>
+                    <!-- Formule 3 -->
+                    <div class="pricing-card featured fade-in delay-3">
+                        <h3 class="pricing-name">Formule 3</h3>
+                        <div class="pricing-price">180€<span> - 300€</span></div>
+                        <p style="color: var(--gray-medium); margin-bottom: var(--spacing-lg);">Document à partir de 0</p>
+                        <ul class="pricing-features">
+                            <li>Le client ne fournit aucun contenu</li>
+                            <li>Recherche et création complète : 110€</li>
+                            <li>Prise en charge intégrale</li>
+                            <li>Format A4 PDF : 70€</li>
+                            <li>Format PowerPoint (PDF) : 70€</li>
+                            <li>Lot des 2 formats : 120€</li>
+                        </ul>
+                        <a href="#contact" class="btn btn-primary" style="width: 100%;">Demander un devis</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Portfolio Section -->
+    <section class="portfolio" id="portfolio">
+        <div class="container">
+            <div class="portfolio-header">
+                <span class="section-subtitle fade-in">Notre travail</span>
+                <h2 class="section-title fade-in">Portfolio</h2>
+                <p class="section-description fade-in">
+                    Découvrez quelques-unes de nos réalisations et laissez-vous inspirer par notre travail.
+                </p>
+            </div>
+            <div class="gallery-grid">
+                <div class="gallery-item fade-in" data-index="0">
+                    <img src="assets/images/photos/IMG_5380.jpeg" alt="Concert - Artiste sur scène" loading="lazy">
+                    <div class="gallery-overlay">
+                        <span>Concert Live</span>
+                    </div>
+                </div>
+                <div class="gallery-item fade-in" data-index="1">
+                    <img src="assets/images/photos/IMG_5381.jpeg" alt="Concert - Performance" loading="lazy">
+                    <div class="gallery-overlay">
+                        <span>Performance scénique</span>
+                    </div>
+                </div>
+                <div class="gallery-item fade-in" data-index="2">
+                    <img src="assets/images/photos/IMG_6077.jpeg" alt="Photo nature" loading="lazy">
+                    <div class="gallery-overlay">
+                        <span>Photographie animalière</span>
+                    </div>
+                </div>
+                <div class="gallery-item fade-in" data-index="3">
+                    <img src="assets/images/photos/IMG_5418.jpeg" alt="Événement - Régie technique" loading="lazy">
+                    <div class="gallery-overlay">
+                        <span>Événementiel</span>
+                    </div>
+                </div>
+                <div class="gallery-item fade-in" data-index="4">
+                    <img src="assets/images/photos/IMG_5421.jpeg" alt="Technique son" loading="lazy">
+                    <div class="gallery-overlay">
+                        <span>Coulisses</span>
+                    </div>
+                </div>
+                <div class="gallery-item fade-in" data-index="5">
+                    <img src="assets/images/photos/_MG_8671.jpg" alt="Ambiance événement" loading="lazy">
+                    <div class="gallery-overlay">
+                        <span>Ambiance</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Lightbox -->
+    <div class="lightbox" id="lightbox">
+        <div class="lightbox-content">
+            <button class="lightbox-close" aria-label="Fermer">&times;</button>
+            <button class="lightbox-nav lightbox-prev" aria-label="Précédent">&#10094;</button>
+            <img src="" alt="Image agrandie" id="lightboxImg">
+            <button class="lightbox-nav lightbox-next" aria-label="Suivant">&#10095;</button>
+        </div>
+    </div>
+
+    <!-- Contact Section -->
+    <section class="contact" id="contact">
+        <div class="container">
+            <div class="contact-header">
+                <span class="section-subtitle fade-in" style="color: var(--primary-cyan);">Contactez-nous</span>
+                <h2 class="section-title fade-in">Parlons de votre projet</h2>
+                <p class="section-description fade-in">
+                    Avant tout, nous prenons le temps de vous écouter, pour vous accompagner avec bienveillance et créer une véritable relation de confiance.
+                </p>
+            </div>
+            <div class="contact-grid">
+                <div class="contact-info fade-in-left">
+                    <h3>Restons connectés</h3>
+                    <div class="contact-item">
+                        <div class="contact-item-icon">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/>
+                                <polyline points="22,6 12,13 2,6"/>
+                            </svg>
+                        </div>
+                        <div class="contact-item-text">
+                            <h4>Email</h4>
+                            <p>contact@klena-agency.fr</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <div class="contact-item-icon">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/>
+                            </svg>
+                        </div>
+                        <div class="contact-item-text">
+                            <h4>Téléphone</h4>
+                            <p>+33 6 XX XX XX XX</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <div class="contact-item-icon">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/>
+                                <circle cx="12" cy="10" r="3"/>
+                            </svg>
+                        </div>
+                        <div class="contact-item-text">
+                            <h4>Localisation</h4>
+                            <p>France</p>
+                        </div>
+                    </div>
+                    <div class="social-links">
+                        <a href="#" class="social-link" aria-label="Instagram">
+                            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                <rect x="2" y="2" width="20" height="20" rx="5" ry="5"/>
+                                <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"/>
+                                <line x1="17.5" y1="6.5" x2="17.51" y2="6.5"/>
+                            </svg>
+                        </a>
+                        <a href="#" class="social-link" aria-label="Facebook">
+                            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                <path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"/>
+                            </svg>
+                        </a>
+                        <a href="#" class="social-link" aria-label="TikTok">
+                            <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
+                                <path d="M19.59 6.69a4.83 4.83 0 0 1-3.77-4.25V2h-3.45v13.67a2.89 2.89 0 0 1-5.2 1.74 2.89 2.89 0 0 1 2.31-4.64 2.93 2.93 0 0 1 .88.13V9.4a6.84 6.84 0 0 0-1-.05A6.33 6.33 0 0 0 5 20.1a6.34 6.34 0 0 0 10.86-4.43v-7a8.16 8.16 0 0 0 4.77 1.52v-3.4a4.85 4.85 0 0 1-1-.1z"/>
+                            </svg>
+                        </a>
+                        <a href="#" class="social-link" aria-label="LinkedIn">
+                            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                <path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"/>
+                                <rect x="2" y="9" width="4" height="12"/>
+                                <circle cx="4" cy="4" r="2"/>
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+                <div class="contact-form fade-in-right">
+                    <form id="contactForm">
+                        <div class="form-group">
+                            <label for="name" class="form-label">Nom complet *</label>
+                            <input type="text" id="name" name="name" class="form-input" placeholder="Votre nom" required>
+                            <span class="form-error" id="nameError"></span>
+                        </div>
+                        <div class="form-group">
+                            <label for="email" class="form-label">Email *</label>
+                            <input type="email" id="email" name="email" class="form-input" placeholder="votre@email.com" required>
+                            <span class="form-error" id="emailError"></span>
+                        </div>
+                        <div class="form-group">
+                            <label for="phone" class="form-label">Téléphone</label>
+                            <input type="tel" id="phone" name="phone" class="form-input" placeholder="+33 6 XX XX XX XX">
+                        </div>
+                        <div class="form-group">
+                            <label for="service" class="form-label">Service souhaité</label>
+                            <select id="service" name="service" class="form-input">
+                                <option value="">Sélectionnez un service</option>
+                                <option value="social">Gestion des réseaux sociaux</option>
+                                <option value="photo">Photographie & Vidéo</option>
+                                <option value="charte">Charte graphique</option>
+                                <option value="autre">Autre</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <label for="message" class="form-label">Message *</label>
+                            <textarea id="message" name="message" class="form-textarea" placeholder="Décrivez votre projet..." required></textarea>
+                            <span class="form-error" id="messageError"></span>
+                        </div>
+                        <button type="submit" class="btn btn-primary btn-animated" style="width: 100%;">
+                            Envoyer le message
+                        </button>
+                        <div id="formSuccess" class="form-success" style="display: none; margin-top: var(--spacing-lg); padding: var(--spacing-md); background: rgba(193, 255, 114, 0.2); border-radius: var(--radius-md); text-align: center; color: var(--primary-green);">
+                            ✓ Message envoyé avec succès ! Nous vous répondrons rapidement.
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-brand">
+                    <a href="#" class="logo">
+                        <img src="assets/images/logo/kléna_agency_logo_couleurs_blanc.png" alt="KlénaAgency Logo">
+                    </a>
+                    <p>
+                        Agence créative spécialisée dans la photographie, la gestion des réseaux sociaux et la création de chartes graphiques.
+                    </p>
+                </div>
+                <div class="footer-nav">
+                    <h4 class="footer-title">Navigation</h4>
+                    <ul class="footer-links">
+                        <li><a href="#hero">Accueil</a></li>
+                        <li><a href="#about">À propos</a></li>
+                        <li><a href="#services">Services</a></li>
+                        <li><a href="#pricing">Tarifs</a></li>
+                    </ul>
+                </div>
+                <div class="footer-nav">
+                    <h4 class="footer-title">Services</h4>
+                    <ul class="footer-links">
+                        <li><a href="#pricing" data-pricing-tab="social">Réseaux sociaux</a></li>
+                        <li><a href="#pricing" data-pricing-tab="photo">Photographie</a></li>
+                        <li><a href="#pricing" data-pricing-tab="charte">Charte graphique</a></li>
+                        <li><a href="#contact">Devis gratuit</a></li>
+                    </ul>
+                </div>
+                <div class="footer-nav">
+                    <h4 class="footer-title">Contact</h4>
+                    <ul class="footer-links">
+                        <li><a href="mailto:contact@klena-agency.fr">contact@klena-agency.fr</a></li>
+                        <li><a href="#contact">Formulaire de contact</a></li>
+                    </ul>
+                    <div class="social-links" style="margin-top: var(--spacing-lg);">
+                        <a href="#" class="social-link" aria-label="Instagram">
+                            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <rect x="2" y="2" width="20" height="20" rx="5" ry="5"/>
+                                <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"/>
+                                <line x1="17.5" y1="6.5" x2="17.51" y2="6.5"/>
+                            </svg>
+                        </a>
+                        <a href="#" class="social-link" aria-label="Facebook">
+                            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"/>
+                            </svg>
+                        </a>
+                        <a href="#" class="social-link" aria-label="TikTok">
+                            <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor">
+                                <path d="M19.59 6.69a4.83 4.83 0 0 1-3.77-4.25V2h-3.45v13.67a2.89 2.89 0 0 1-5.2 1.74 2.89 2.89 0 0 1 2.31-4.64 2.93 2.93 0 0 1 .88.13V9.4a6.84 6.84 0 0 0-1-.05A6.33 6.33 0 0 0 5 20.1a6.34 6.34 0 0 0 10.86-4.43v-7a8.16 8.16 0 0 0 4.77 1.52v-3.4a4.85 4.85 0 0 1-1-.1z"/>
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2026 klénana Agency. Tous droits réservés. | Site réalisé par <a href="https://e-novateur.fr" target="_blank" rel="noopener noreferrer" class="footer-credit">e-novateur</a></p>
+                <div class="footer-legal">
+                    <a href="#">Mentions légales</a>
+                    <a href="#">Politique de confidentialité</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- JavaScript -->
+    <script src="js/main.js"></script>
+    <script src="js/gallery.js"></script>
+    <script src="js/pricing.js"></script>
+    <script src="js/forms.js"></script>
+</body>
+</html>
